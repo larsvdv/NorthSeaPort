@@ -23,6 +23,10 @@ ExportedObj/
 *.svd
 *.pdb
 *.opendb
+Assets/Standard Assets
+Assets/ProBuilder Data
+Assets/SampleScenes
+Assets/ProCore
 
 # Unity3D generated meta files
 *.pidb.meta
