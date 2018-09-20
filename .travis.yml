@@ -8,3 +8,11 @@ install:
 - ./Scripts/install.sh
 script:
 - ./Scripts/build.sh
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $183c383ff43d162a063761523ed2c94a29170ad0  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
