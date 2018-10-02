@@ -5,11 +5,17 @@ project="NorthSeaPort"
 echo "Attempting to build $project for Windows"
 /Applications/Unity/Unity.app/Contents/MacOS/Unity 
   -batchmode 
+  echo "1"
   -nographics 
+  echo "2"
   -silent-crashes 
+  echo "3"
   -logFile $(pwd)/unity.log 
+  echo "4"
   -projectPath $(pwd) 
+  echo "5"
   -buildWindowsPlayer "$(pwd)/Build/windows/$project.exe" 
+  echo "6"
   -quit
 
 echo "Attempting to build $project for OS X"
